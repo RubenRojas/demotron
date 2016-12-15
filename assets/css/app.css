@@ -1,0 +1,358 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+/**************************
+	ESTILOS GENERALES
+**************************/
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.btn_nuevo{
+	margin-bottom: 30px;
+}
+.btn_sys{
+	background-color: #2196F3;
+}
+.btn_sys:hover{
+    background-color: #03A9F4;
+}
+hr{
+    box-sizing: content-box;
+    height: 0;
+    clear: both;
+    margin: 16px 0;
+}
+.contenedor{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.btn i{
+    margin-right: 10px;
+}
+.fin_informe{
+    margin-top: 30px;
+}
+
+h3.center{
+        font-size: 2.25em;
+    margin-bottom: 44px;
+}
+.txt_right{
+    text-align: right !important;
+}
+.txt_left{
+    text-align: left !important;
+}
+
+.numero{
+    text-align: right !important;
+}
+
+
+/**************************
+	NOTIFICATIONS
+**************************/
+.notificacion{
+	width: 400px;
+    border: 1px solid #484848;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 40px;
+    left: -530px;
+    opacity: 0;
+    z-index: 100;
+    -webkit-transition: all .5s ease .3s;
+    -o-transition: all .5s ease .3s;
+    transition: all .5s ease .3s;
+    background-color: #1f1f1f;
+    height: 80px;
+    color: #FFF;
+}
+.SUCCESS{
+    /*background: rgba(0, 150, 136, 0.12);*/
+    margin: 0;
+        height: 100%;
+    display: -webkit-box;
+}
+.WARNING{
+    /*background: rgba(255, 235, 59, 0.12);*/
+    margin: 0;
+        height: 100%;
+    display: -webkit-box;
+}
+.ERROR{
+    /*background: rgba(244, 67, 54, 0.08);*/
+    margin: 0;
+        height: 100%;
+    display: -webkit-box;
+}
+
+.notificacion .icono{
+	width: 20%;
+	padding-left: 16px
+}
+.notificacion .icono img{
+	height: 50px;
+}
+.notificacion .mensaje{
+    width: 80%;    
+    margin-top: 0;
+    padding-top: 0;    
+    padding-right: 20px;
+}
+.notificacion .mensaje p{
+   font-size: 1em;    
+    color: #eeeeee;
+    font-weight: 300;
+    letter-spacing: 0.0125em;
+}
+
+.notificacion.show{
+	    left: -5px;
+    opacity: 1;
+    padding-left: 6px;
+}
+/**************************
+    FORMULARIO
+**************************/
+
+span.correcto{
+  background: #43AC6A;
+}
+span.error{
+  background: #E47272;
+}
+#error_rut{
+    color: #FFF;
+    width: 100%;
+    display: none;
+    padding-left: 9px;
+    height: 29px;
+}
+#error_rut p{
+  color: #FFF;
+  line-height: 0;
+}
+
+.divider{
+    width: 100%;
+    clear: both;
+    border: 1px solid #E0E0E0;
+    height: 1px;
+    margin: 5px 0;
+}
+.separador{
+    height: 100px;
+    clear: both;
+    background: rgba(0,0,0,0);
+}
+.ui-menu-item{
+    background: #E6E6E6;
+    font-size: 0.825em !important;
+    font-family: "Roboto";
+}
+/**************************
+	LOGIN FORM
+**************************/
+#loginForm{
+	width: 100%;
+    height: 100%;
+    background-image: url('../img/wall.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 955px;
+    margin-top: -22px;
+    padding-top: 69px;
+}
+#loginForm label{
+	color: #000;
+}
+#loginForm h3{
+    font-weight: 300;
+    color: #33436A;
+}
+.loginForm{
+	padding: 50px;
+	margin-top: 50px;
+	background-color: rgba(255,255,255,.5);
+	border-radius: 5px;
+	border: 1px solid #C4C4C4;
+}
+/**************************
+	GESTION DE USUARIO
+**************************/
+
+span.dato{
+	display: block;        
+    background: rgba(33, 150, 243, 0.31);
+    padding: 3px 9px;
+    margin-bottom: 12px;
+    height: 30px;
+}
+
+.permisos td, .permisos th{
+	text-align: center;
+}
+
+.btn_small{
+        background: #03A9F4;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 38px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 12px;
+}
+/**************************
+    FORMULARIOS GENERALES
+**************************/
+
+#rut_cl{
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#rut_cl.valido{
+    background-image: url("../img/icons/SUCCESS_form.png");
+}
+#rut_cl.noValido{
+    background-image: url("../img/icons/ERROR_form.png");
+}
+
+
+/**************************
+    ESTILOS PARA TABLAS
+**************************/
+#listado{
+    font-size: 0.82em;
+}
+
+#listado_length{
+    display: none;
+}
+.dataTables_filter{
+    float: left !important;
+    text-align: left !important;   
+    margin-top: -85px;
+}
+.dataTables_filter label{
+    margin-left: 7px;
+}
+.panel{
+       clear: both;
+    border: 1px solid;
+    margin-bottom: 25px;
+    padding: 1px 20px;
+    border-radius: 3px;
+}
+.panel h6{
+    font-weight: 500;
+}
+.panel h6 span{
+    width: 100px;
+    display: inline-block;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 3px 10px;
+}
+
+table.dataTable tbody tr:hover{
+    background-color: rgba(33, 150, 243, 0.26);
+}
+
+/***************************************
+    ESTILOS INFORMES
+***************************************/
+
+.info{
+    text-align: center;
+    font-size: .95em;
+    color: #222;
+    margin-top: -35px;
+}
+table.informe{
+    
+}
+table.informe thead tr th{
+        text-align: center;
+    border: 1px solid #999999;
+    background: #E6E6E6;
+    padding: 2px 0;
+    text-transform: uppercase;
+    font-size: .95em;
+}
+table.informe tbody tr td{
+    text-align: center;
+    border: 1px solid #999999;
+    font-size: .8em;
+}
+
+/***************************************
+    ESTILOS ORDEN DE COMPRA FORMULARIO
+***************************************/
+.item_oc{
+    display: block;
+    margin: auto;
+    margin-left: 3px;
+    margin-right: -5px;
+    margin-top: -2px;
+}
+.item_oc input, .totalesOC input{
+    display: inline-block;
+    margin: 0 -1px 0 -3px;
+    text-align: center;
+    font-size: .85em;
+    height: 29px;
+    padding: 0;
+    border: 1px solid #868686;
+}
+.item_oc select{
+    display: inline-block;
+    margin: 0 -1px 0 -3px;
+    text-align: center;
+    font-size: .85em;
+    height: 30px;
+    padding: 0;
+    border: 1px solid #868686;
+}
+input:focus, select:focus,  textarea:focus{
+    background-color: #8ABEFD !important;
+}
+.totalesOC input, .totalesOC input:focus{
+    font-size: 1.5em;
+    border: none;
+}
+.item_oc input:nth-child(6){
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item_oc input:nth-child(7){
+    text-align: left;
+    padding-left: 6px;
+    text-transform: uppercase;
+}
+.item_oc input:nth-child(9), .item_oc input:nth-child(8){
+    text-align: right;
+    padding-right: 6px;
+}
+.datosProveedorOc{
+    display: none;
+}
+
+
+.character-counter{
+    display: inline;
+    visibility: visible;
+    position: relative;
+    z-index: 99999;
+    
+
+}

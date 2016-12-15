@@ -1,0 +1,261 @@
+
+.ordenCompra{
+	margin-bottom: 350px;
+}
+.logo{
+	    height: 55px;
+    margin-top: 16px;
+    /* float: left; */
+}
+.fechaOc{
+	float: right;
+    width: 150px;
+    border: 1px solid;
+    margin-top: -50px;
+    border: 1px solid;
+}
+.fechaOc td{
+	    border: 1px solid;
+    padding: 0 2px;
+    font-size: .7em;
+    font-weight: 500;
+
+}
+.tituloOc{
+	margin-top: -50px;
+	font-size: 1.3em;
+}
+.datosEmp{
+	    margin-top: 30px;
+    width: 468px;
+    font-size: .5em;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.datosEmp td{
+	padding: 0;
+    border: none;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.datosProv{
+    width: 85%;
+    border: 1px solid;
+    margin-bottom: 15px;
+        font-size: .6em;
+}
+.datosProv td{
+	line-height: 1.1;
+	padding: 0px 2px;
+	font-weight: bold;
+	border: 1px solid;
+}
+.datosProv td:first-child{
+    padding: 0 0px 0px 3px;
+    border-right: 1px solid;
+    font-weight: 400;
+    width: 49px;
+    font-size: 1.25em;
+}
+
+
+.prodOC{
+	border: 1px solid;
+	font-size: 1.3em;
+}
+
+.prodOC thead{
+	border: 1px solid;
+	background: #E2E2E2;
+	font-weight: bold;
+	font-size: .9em;
+}
+.prodOC thead th{
+	    text-align: center;
+    border: 1px solid;
+    padding: 0;
+    font-size: .75em;
+}
+.prodOC tr td{
+	    text-align: center;
+    padding: 0 3px;
+    border: 1px solid;
+    font-size: .7em;
+        color: #000;
+    font-weight: 400;
+}
+.prodOC tr td:nth-child(7),.prodOC tr td:nth-child(8){
+	text-align: right;
+	padding-right: 3px;
+}
+.prodOC tr td:nth-child(6){
+	text-align: left;
+	padding-right: 3px;
+}
+.totalesOC{
+       width: 20.05%;
+    /* margin-right: 0.05%; */
+    float: right;
+    font-size: .65em;
+    border: 1px solid;
+    margin-top: -2px;
+}
+.totalesOC td{
+	border: 1px solid;
+	width: 50%;
+	padding: 0 2px; 
+	font-weight: bold;
+}
+.totalesOC tr td:last-child{
+	text-align: right;
+	padding-right: 3px;
+}
+.otrosDatos{
+	width: 70%;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.otrosDatos td{
+	padding: 0 2px;
+	font-size: .7em;
+	border: 1px solid;
+	width: 25%;
+	text-align: center;
+}
+.nota{
+	width: 65%;
+	margin-top: 5px;
+	float: left;
+    
+}
+.nota span{
+	    border: 1px solid;
+    margin-top: -2px;
+    padding: 4px;
+    height: 65px;
+    width: 100%;
+    display: block;
+    font-size: 0.7em;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.formaPago{
+	    width: 29%;
+    border: 1px solid;
+    float: right;
+    margin-top: 25px;
+    height: 19px;
+    text-align: center;
+}
+.formaPago span{
+	display: block;
+    font-size: .8em;
+    font-weight: 600;
+    margin-bottom: -4px;
+}
+
+.disclaim{
+	font-size: .8em;
+    width: 100%;
+    float: left;
+    display: block;
+    /* border: 1px solid; */
+    margin-top: 12px;
+}
+.disclaim p{
+	    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    line-height: 1.2;
+    width: 100%;
+}
+
+.vb{
+	width: 35%;
+	float: right;
+	border: 1px solid;
+	margin-top: 15px;
+	
+}
+.vb td{
+	border: 1px solid;
+	font-size: .6em;
+	text-align: center;
+	width: 50%;
+	padding: 0;
+	
+}
+.vb tr:first-child{
+	height: 60px;
+}
+
+.codBarra{
+float: left;
+    border: 1px solid;
+    width: 21%;
+    margin-top: 15px;
+    padding: 5px;
+
+}
+
+.codBarra img{
+	height: 60px;
+    display: block;
+    margin: auto;
+}
+
+.listaProdOc{
+
+}
+.listaProdOc thead{
+	    background: rgb(221, 221, 221);
+    border: 1px solid;
+}
+.listaProdOc thead th{
+	    text-align: center;
+    font-size: 0.85em;
+}
+
+.listaCheques{
+	margin-top: 20px;
+	display: block;
+	border: 1px solid #dcdcdc;
+	padding: 10px 20px 35px 25px;
+}
+
+
+.borra_linea{
+        position: absolute;
+    margin-left: -29px;
+    line-height: 0;
+    font-size: 1.2em;
+    margin-top: 0px;
+    color: red;
+    background: #DDD;
+    padding: 5px;
+    border: 1px solid #868686;
+}
+
+.contador{
+            position: absolute;
+    margin-left: -27px;
+    line-height: 1.9;
+    margin-top: 0px;
+    background: #DDD;
+    width: 30px;
+    height: 29px;
+    border: 1px solid #868686;
+    padding: 4px 5px;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+@media print{
+	.prodOC{
+		font-size: .85em !important;
+	}
+	.ordenCompra{
+		margin-top: -18px;
+	}
+}
