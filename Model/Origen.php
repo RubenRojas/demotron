@@ -50,3 +50,14 @@ class Origen{
 		deleteDB("origen", array("id"=>$id), array("limit"=>"1"), $mysqli);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
